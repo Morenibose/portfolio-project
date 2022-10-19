@@ -1,5 +1,6 @@
 :root {
   --branding-color: #18c95e;
+  --primary-color: #f3f6f7;
   --secondary-color: #f9fffb;
   --heading-font-family: Playfair Display, serif;
   --default-font-family: Roboto, sans-serif;
@@ -71,9 +72,22 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.introduction {
+  background: var(--branding-color);
+}
+
+.introduction p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 40px;
+}
+.content {
+  background-color: var(--primary-color);
+  padding: 160px 20px;
+}
 
 .project-description {
-  padding: 120px 60px;
+  padding: 80px 60px;
 }
 
 @media (max-width: 960px) {
@@ -82,7 +96,7 @@ p {
     line-height: 2;
   }
   h2 {
-    font-size: 42px;
+    font-size: 36px;
   }
   .hero {
     padding: 80px 20px;
