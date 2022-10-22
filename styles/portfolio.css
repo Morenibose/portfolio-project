@@ -29,12 +29,22 @@ h2 {
   font-size: 64px;
 }
 
-p {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+.logo {
+  max-width: 40px;
 }
 
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
