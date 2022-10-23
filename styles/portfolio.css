@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -53,7 +53,7 @@ h4 {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -95,9 +95,8 @@ h4 {
   margin: 0;
 }
 .content-container {
-  margin: 30px auto;
   background-color: var(--primary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
@@ -183,7 +182,7 @@ footer .social-links a:hover {
   h2 {
     font-size: 36px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .hero {
